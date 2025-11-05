@@ -39,34 +39,34 @@ NorthStar is an educational market chat companion that:
 
 ```mermaid
 graph TB
-    A[Next.js App Router] --> B[API Routes]
-    B --> C[/api/market]
-    B --> D[/api/chat]
-    B --> E[/api/plan]
+    A["Next.js App Router"] --> B["API Routes"]
+    B --> C["/api/market"]
+    B --> D["/api/chat"]
+    B --> E["/api/plan"]
     
-    C --> F[yahoo-finance2]
-    F --> G[Indexes: ^IXIC, ES=F]
-    F --> H[Stock Quotes]
+    C --> F["yahoo-finance2"]
+    F --> G["Indexes: ^IXIC, ES=F"]
+    F --> H["Stock Quotes"]
     
-    D --> I[LLM Adapter]
-    I --> J[Anthropic Claude]
-    I --> K[OpenAI GPT-4]
-    I --> L[Ollama Local]
+    D --> I["LLM Adapter"]
+    I --> J["Anthropic Claude"]
+    I --> K["OpenAI GPT-4"]
+    I --> L["Ollama Local"]
     
-    D --> M[Market Context]
+    D --> M["Market Context"]
     M --> F
     
-    E --> N[Allocator]
-    N --> O[Risk Tiers]
-    N --> P[Share Calculation]
-    N --> Q[Cash Buffer]
+    E --> N["Allocator"]
+    N --> O["Risk Tiers"]
+    N --> P["Share Calculation"]
+    N --> Q["Cash Buffer"]
     
-    R[React Query] --> S[Client State]
-    S --> T[Watchlist]
-    S --> U[Chat Messages]
-    S --> V[Allocation Plan]
+    R["React Query"] --> S["Client State"]
+    S --> T["Watchlist"]
+    S --> U["Chat Messages"]
+    S --> V["Allocation Plan"]
     
-    W[localStorage] --> S
+    W["localStorage"] --> S
 ```
 
 **Data Flow**:
