@@ -2,7 +2,7 @@
 
 A calm, "Apple-like" market peer that turns your budget and risk into live-context stock ideas.
 
-[![CI](https://img.shields.io/github/actions/workflow/status/amanjotubhi/northstar/ci.yml?label=build&branch=main)](https://github.com/amanjotubhi/northstar/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/amanjotubhi/northstar/.github%2Fworkflows%2Fci.yml?label=build&branch=main)](https://github.com/amanjotubhi/northstar/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Built with Claude](https://img.shields.io/badge/Built%20with-Claude-8A2BE2)](https://www.anthropic.com)
 [![Docker](https://img.shields.io/badge/Docker-ready-blue)](https://www.docker.com)
@@ -272,13 +272,15 @@ For transparency, see [`CLAUDE.md`](./CLAUDE.md) for the full AI assist disclosu
 
 ## Screenshots
 
+_Add screenshots to `/docs/screenshots/` to see them here._
+
+<!-- Uncomment when screenshots are added:
 | Landing Page | Chat Interface | Allocation Card |
 |--------------|---------------|-----------------|
 | ![Landing](./docs/screenshots/README-hero.png) | ![Chat](./docs/screenshots/chat.png) | ![Allocation](./docs/screenshots/allocation.png) |
 
 **Dark Mode**: ![Dark Mode](./docs/screenshots/darkmode.png)
-
-_Add your screenshots to `/docs/screenshots/` to see them here._
+-->
 
 ## Deploy
 
